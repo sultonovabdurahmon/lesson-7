@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: right; 
+}
+
+.image {
+    width: 330px;
+    border-radius: 10px;
+}
+
+.card {
+    border: 1px solid #989A99;
+    width: 330px;
+    margin: 150px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.tovar {
+    font-size: 24px;
+    color: #1564d9;
+    text-align: left;
+}
+
+.opisanie {
+    font-size: 18px;
+    color: #777777;
+    text-align: left;
+}
+
+.sena {
+    font-size: 26px;
+    color: #1F5BD8;
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+.btn {
+    background-color: #1564d9;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #0f4fb3;
+}
+
+.sena-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
